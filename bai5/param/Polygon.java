@@ -13,7 +13,7 @@ public class Polygon {
     public Polygon() {
     }
 
-
+    // truyền vào bao nhiêu Point tùy ý 
     public Polygon polygonFrom(Point... corners) {
         Polygon p = new Polygon();
         int numberOfSides = corners.length;
@@ -24,6 +24,7 @@ public class Polygon {
                         * (corners[1].y - corners[0].y);
         lengthOfSide1 = Math.sqrt(squareOfSide1);
         // create & return a polygon connecting the Points
+        
 
         return p;
     }

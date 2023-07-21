@@ -25,5 +25,13 @@ public class Test {
 
     public static void main(String[] args) {
         System.out.println(plus(1, 2, 3, 4, 5));
+        // System.out.println("answer = " + 1 + 2 + 3);
+        // System.out.println("answer = " + (1+2+3));
+        String s1 = new String("test");
+        String s2 = "test";
+        String s3 = String.valueOf("test");
+        System.out.println(s1==s2);
+        System.out.println(s1==s3);
+        System.out.println(s2==s3);
     }
 }
